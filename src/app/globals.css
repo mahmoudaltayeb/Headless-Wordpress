@@ -4,18 +4,31 @@
 
 :root {
   --background: #001544;
-  --foreground: #171717;
+  --foreground: #fff;
 }
 
 @media (prefers-color-scheme: blue) {
   :root {
     --background: #001544;
-    --foreground: #ededed;
+    --foreground: #fff;
   }
 }
 
 body {
+  direction: rtl;
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-zarid);
+}
+
+.main{
+  width: 90%;
+  margin: auto;
+}
+
+h1{
+  font-size: 66px;
+}
+.hero{
+  background:url(https://cdn-iladeeh.nitrocdn.com/NmTDXbEvwxIieFPgwvCvQSFwofZedBPV/assets/images/optimized/rev-c87b8d2/trenddc.com/wp-content/uploads/2024/05/trend_office_front.jpg);
 }

@@ -1,7 +1,8 @@
 import Image from "next/image";
+import { Hero } from "@/components/hero";
 
 export default function Home() {
   return (
-    <div className="text-3xl font-bold text-white flex justify-center">test</div>
+    <Hero />
   );
 }

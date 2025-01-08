@@ -3,15 +3,18 @@ import Image from "next/image";
 
 export  function Header(){
     return (
-        <header className="flex justify-between items-center">
-            <section className="grid">
+        <header className="main flex justify-between items-center">
+            <div className="grid">
                 <Image 
                     src="/trend.webp"
                     alt="TrendDC"
                     width={220}
                     height={37}
                 />
-            </section>
+            </div>
+            <div>
+                menus
+            </div>
         </header>
     )
 }

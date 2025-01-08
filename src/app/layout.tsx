@@ -26,6 +26,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.png" type="image/png" />
+      </head>
       <body
         className={`${zarid.variable} antialiased`}
       >
